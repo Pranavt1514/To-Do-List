@@ -1,0 +1,46 @@
+.add{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add:hover {
+    background-color: #45a049;
+}
+
+.add:active {
+    background-color: #3e8e41;
+}
+.container{
+    display: block;
+    justify-content: center;
+    margin-top: 25px;
+}
+.input{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10vw;
+    width: 50vw;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 10vw;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.1);
+}
+
+.body{
+    background-color: black;
+}
